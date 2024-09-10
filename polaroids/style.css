@@ -10,7 +10,7 @@
     margin: 0;
     text-align: center;
     padding: 10px;
-    color: black;
+    color:red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
@@ -19,4 +19,41 @@ header{
     color:dodgerblue;
     padding: 30px;
     background-color:azure;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+.products{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* transformando em conteiner */
+    display: flex;
+    /* deixa o texto em baixo da imagem   */
+    flex-direction: column;
+}
+
+/* tranformar a imagem em responsive */
+.products img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+main#album{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+    
 }
